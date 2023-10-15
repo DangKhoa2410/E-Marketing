@@ -1,0 +1,199 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.logo-title {
+  display: flex;
+  align-items: flex-start;
+}
+
+.logo-img {
+  width: 100px;
+  height: 50px;
+}
+
+.box-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Header-title {
+  font-weight: 700;
+}
+
+.title-span {
+  display: flex;
+  font-size: 10px;
+}
+
+.box-input {
+  width: 35%;
+}
+
+.input-search {
+  padding: 3px 0 5px 10px;
+  width: 100%;
+  background-color: #e9e9e9;
+  border: 1px solid #706f6f;
+  border-radius: 50px;
+}
+
+.logo-call {
+  display: flex;
+  align-items: center;
+}
+
+.logo-phone {
+  transform: rotate(90deg);
+  font-size: 24px;
+}
+
+.support,
+.support2 {
+  color: red;
+  font-size: 18px;
+  margin: 7px 0;
+  padding-left: 10px;
+}
+
+.numbers {
+  color: #4e4e4e;
+}
+
+.numbers:hover {
+  color: #000000;
+  cursor: pointer;
+  border-bottom: 1px solid #000;
+}
+
+.support2 {
+  color: green;
+}
+
+.body-navbar {
+  display: flex;
+  background-color: #000;
+  margin-top: 30px;
+}
+
+.nav-head {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  color: #fff;
+  background-color: rgb(178, 1, 1);
+  padding-left: 10px;
+}
+
+.nav-head:hover {
+  cursor: pointer;
+}
+
+.nav-list {
+  margin: 0 0 0 15px;
+  font-weight: 700;
+  padding: 16px 30px 16px 0;
+}
+
+.box-nav {
+  display: flex;
+  align-items: flex-end;
+  margin-left: 40px;
+}
+
+.nav-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.nav-name-title {
+  color: rgb(230, 230, 6);
+  font-weight: 700;
+  margin-right: 20px;
+  border-bottom: 3px solid yellow;
+}
+
+.nav-name-title:hover {
+  color: rgb(230, 230, 6);
+  text-decoration: none;
+}
+
+.nav-link {
+  padding: 0;
+}
+
+.nav-title {
+  color: #fff;
+  font-weight: 700;
+  list-style: none;
+  padding: 0 15px;
+  font-size: 16px;
+}
+
+.nav-title:hover {
+  cursor: pointer;
+  color: rgb(230, 230, 6);
+}
+
+.introduce-box {
+  padding: 30px;
+}
+
+.title-introduce {
+  line-height: 40px;
+  color: #636262;
+}
+
+.img-location {
+  background: url(../img/385420192_338228182080781_5008480214160072686_n.jpg)top center / cover no-repeat;
+  width: 100%;
+  height: 150px;
+}
+
+.advise-box1 {
+  display: flex;  
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.infor-box {
+  width: 30%;
+}
+
+.infor-title {
+  padding: 20px 0;
+  line-height: 30px;
+}
+
+.infor-title2 {
+  line-height: 30px;
+}
+
+.footer {
+  padding: 20px 0;
+  background-color: #000;
+}
+
+.title-footer {
+  line-height: 32px;
+  color: #ccc;
+  text-align: center;
+  font-size: 14px;
+}

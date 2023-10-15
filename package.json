@@ -1,0 +1,19 @@
+{
+  "name": "e-mar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html src/**/*.html ",
+    "server": "json-server --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  },
+  "dependencies": {
+    "json-server": "^0.17.3"
+  }
+}
