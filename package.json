@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel src/index.html src/**/*.html ",
-    "server": "json-server --watch"
+    "server": "json-server --watch",
+    "build": "rm -rf build && rm -rf .parcel-cache && parcel build src/index.html --no-cache --no-source-maps --dist-dir dist"
   },
   "author": "",
   "license": "ISC",
